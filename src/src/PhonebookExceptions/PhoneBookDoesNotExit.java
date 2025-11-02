@@ -1,6 +1,6 @@
 package PhonebookExceptions;
 
-public class PhoneBookDoesNotExit extends PhoneBook{
+public class PhoneBookDoesNotExit extends PhoneBookExceptions {
     public PhoneBookDoesNotExit(String message) {
         super(message);
     }

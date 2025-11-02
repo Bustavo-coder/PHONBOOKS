@@ -1,6 +1,6 @@
 package PhonebookExceptions;
 
-public class ContactNumber extends PhoneBook {
+public class ContactNumber extends PhoneBookExceptions {
     public ContactNumber(String message) {
         super(message);
     }

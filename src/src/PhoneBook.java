@@ -50,6 +50,10 @@ public class PhoneBook {
         deleteContact(oldContactName);
         addContact(newContactName,newContactNo);
     }
+    @Override
+    public String toString(){
+        return this.phoneBooks.toString();
+    }
 
 
     private void validateAvailableContact(String name){
