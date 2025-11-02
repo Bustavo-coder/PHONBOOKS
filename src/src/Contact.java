@@ -11,6 +11,12 @@ public class Contact {
         this.name = name;
         this.contact = contact;
     }
+    public String getName(){
+        return this.name;
+    }
+    public String getContact(){
+        return this.contact;
+    }
 
     private void validateInput(String name,String contact){
         if(name.isBlank() || contact.isBlank()) throw new EmptyArgs("Cannot Create Contact With Empty Args");
