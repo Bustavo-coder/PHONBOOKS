@@ -1,3 +1,4 @@
+import PhonebookExceptions.ContactExists;
 import PhonebookExceptions.ContactNotFound;
 
 import java.util.HashMap;
@@ -10,6 +11,10 @@ public class PhoneBook {
     public PhoneBook(String name){
         this.name = name;
     }
+    public String getName(){
+        return this.name;
+    }
+
 
     public boolean isEmpty() {
         return size == 0;

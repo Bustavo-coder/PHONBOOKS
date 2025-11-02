@@ -1,4 +1,4 @@
-import PhonebookExceptions.PhoneBook;
+package PhonebookExceptions;
 
 public class ContactExists extends PhoneBook {
     public ContactExists(String message) {
